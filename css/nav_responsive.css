@@ -1,0 +1,39 @@
+@media only screen and (max-width: 991px) {
+    /* Menu */
+    .navbar{
+        background-color: rgba(30, 29, 29, 0.575);
+        padding: 10px 50px 0.20px;
+    }
+    body[data-dark='true'] .navbar{
+        background-color: #181a1b;
+    }
+    .nav-link{
+        color:#585858 !important;
+    }
+    body[data-dark='true'] .navbar-link{
+        color: #bebebe !important;
+    }
+    .nav-link:hover{
+        color: #20509e !important;
+        text-decoration: none !important;
+    }
+    body[data-dark='true'] .nav-link:hover{
+        color: #16d0c5 !important;
+    }
+    .nav-link.active {
+        color: #20769e !important;
+    }
+    body[data-dark='true'] .nav-link.active{
+        color: #16d0c5 !important;
+    }
+    /* Section principale */
+    .hero-text{
+        text-align: center !important;
+    }
+    p.lead {
+        font-size:13px !important;
+    }
+    p.lead-2 {
+        font-size:12px !important;
+    }
+}

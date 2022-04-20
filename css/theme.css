@@ -1,0 +1,41 @@
+/* boutons page  */
+.site-btn {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 16px;
+	border-radius: 50px;
+	font-family: "Futura", sans-serif;
+	min-width: 170px;
+	text-align: center;
+	border: 2px solid #7ad4cc;
+	cursor: pointer;
+	color: #fff;
+}
+
+.site-btn.sb-gradients {
+	padding: 17px 32px;
+	border: none;
+	color: #fff;
+    background: linear-gradient(to right, #2c8eff, #add3ff 100%, #aed4ff 100%, #ffffff 100%);
+}
+
+.site-btn.sb-gradients-formation{
+	left: 50%;
+	padding: 17px 32px;
+	border: none;
+	color: #fff;
+    background: linear-gradient(to right, #2c8eff, #add3ff 100%, #aed4ff 100%, #ffffff 100%);
+}
+
+/* Sans background */
+
+.site-btn.sb-gradients-formation.sbg-line:hover {
+	color: #3847ce;
+	
+}
+.site-btn.sb-gradients.sbg-line:hover {
+	color: #3847ce;
+}

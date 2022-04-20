@@ -1,0 +1,2324 @@
+/*RESPONSIVE ACCEUIL TABLETTE*/
+:root{
+    --colorfonce:rgb(120, 63, 4);
+    --colorclair:rgb(230 145 56);
+    --colorfooter:rgba(212, 127, 15, 0.89);
+    --policenumero: 'Lato', sans-serif;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 966px) {
+
+    .styleaccueil{
+        position: relative; 
+        width: 100%;
+        padding: 1.5rem 1em;
+        content: "";  
+        background-color: #ffffff;
+        opacity: 1;
+        background-size: 8px 8px;
+        background-image: repeating-linear-gradient(135deg, #fca92e 0, #f7b045 0.8px, #f7f7f7 0, #f7f7f7 50%);        
+        position: absolute; 
+        height: 4%; 
+        top: 0px;  
+        right: 0px; 
+        left: 0px; 
+    
+    
+    }
+
+    body {
+        margin:0 auto;
+        width: 100%;
+        overflow-x: hidden;
+        }
+    
+    nav{
+        margin-top: 50px;
+    }
+
+    .nav-item-active {
+        color: var(--colorfonce);
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    .color{
+        color: var(--colorfooter);
+        margin-left: 15px;
+        font-size: 15pt;
+        font-style: italic;
+
+    }
+
+    .color:hover{
+        text-decoration: none;
+        color: var(--colorfonce)
+
+    }
+
+    /*LOGO MENU*/
+    
+    .imgmenulabel{
+        display: none;
+        margin-left: 40px;
+        margin-top: -10%;
+    }
+
+    .imgleftlait{
+        position: relative;   
+        width: 15%;
+        margin-top: -4%;
+        float: left;
+        margin-left: 3%;
+    }
+
+    .imgmenu{
+        width: 300px;
+    }
+
+    .element .imgmenuaccueil{
+        margin-left: 35%;
+        width: 65%;
+        height: -150px;
+        height: 0%;
+    }
+    
+    .acceuil .img{
+        height: 250px;
+        width: 100%;
+    }
+
+    .navbar-toggler{
+        margin-left: 400px;
+    }
+    
+    .imgrightlait{
+        position: relative;   
+        width: 25%;
+        margin-top: -2%;
+        float: right;
+    }
+
+    .title{
+        font-size: 20pt;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+    .Produit .titreproduit{
+        font: bold;
+        color: var(--colorclair);
+    
+    }
+    
+    .Fromages .titreproduit{
+        font: bold;
+        color: var(--colorclair);
+    
+    }
+    .savoirfaire .titreproduit{
+        font: bold;
+        color: var(--colorclair);
+    
+    }
+    .ferme .titreproduit{
+        font: bold;
+        color: var(--colorclair);
+    
+    }
+
+
+    /*images et texte produit frais sur acceuil*/
+    .Produit .img .imgproduit{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+    
+    .Produit .img .textproduit{
+        float: right;
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    
+    }
+    
+    /*images et texte nos fromages sur acceuil*/
+    .Fromages .img .imgfromage{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+    
+    .Fromages .textfromage{
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }
+    
+    /*images et text savoir faire*/
+    .savoirfaire .img .imgsavoirfaire{
+            margin-top: 20px;
+            margin-left: 15%;
+            width: 70%;
+    }
+    
+    .savoirfaire .textsavoirfaire{
+        float: right;
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }    
+    /*images et texte de la ferme sur acceuil*/
+    .ferme .img .imgferme{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+    
+    .ferme .textferme{
+        float: right;
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }
+    
+    
+    /*image retrouver nos produits*/
+    .pointdevente .img .imgpointdevente{
+        width: 50%;
+        margin-top: 10%;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-left: 25%;
+        margin-right: auto;
+    }
+
+
+    /*PAGE PRODUIT FRAIS*/
+
+
+
+
+    .imgleftlait-{
+        position: relative;
+        width: 15%;
+        margin-top: -7%;
+        float: left;
+        margin-left: 3%;
+        }
+    
+        .imgrightlait-{
+            position: relative;
+            width: 25%;
+            margin-top: -6%;
+            float: right;
+        }
+    
+    
+    .imgleftboulette{
+        position: relative;
+        width: 25%;
+        float: left;
+    
+    }
+    
+    .imgright{
+        position: relative;
+        width: 25%;
+        float: right;
+    }
+    
+    
+    /*******fin page fromages*****/
+    
+    .titreproduitfrais h1 {
+        font-weight: bold;
+        color:  var(--colorclair);
+        font-size: 36pt;
+        box-sizing: border-box;
+        text-decoration: none;
+        padding-top: 2vh;
+        text-align: center;
+    }
+    
+    h2 {
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size: 25pt;
+        color:  var(--colorclair);
+        font-weight: normal;
+    }
+    
+    
+    .titre{
+        font-family: 'Dancing Script', cursive;
+    
+    }
+    
+    
+     /*BOX DE LA PAGE PRODUIT FRAIS (BACKGROUND)*/
+    
+     .titlelait{
+        font-size: 20pt;
+        margin-left: 150px;
+        color: var(--colorfonce);
+        position: relative;
+    
+    }
+    
+    .titlebeurre{
+        font-size: 20pt;
+        margin-left: 150px;
+        color: var(--colorfonce);
+        position: relative;
+    
+    }
+    
+    .titlecreme{
+        font-size: 20pt;
+        margin-left: 150px;
+        color: var(--colorfonce);
+        position: relative;
+    
+    }
+    
+    .titlefromage{
+        font-size: 20pt;
+        margin-left: 150px;
+        color: var(--colorfonce);
+        position: relative;
+    
+    }
+    
+    .titlefaisselle{
+        font-size: 20pt;
+        margin-left: 150px;
+        color: var(--colorfonce);
+        position: relative;
+    
+    }
+    
+    .titleyaourt{
+        font-size: 20pt;
+        margin-left: 150px;
+        color: var(--colorfonce);
+        position: relative;
+    
+    }
+    
+    
+    .titletarte{
+        font-size: 20pt;
+        margin-left: 150px;
+        color: var(--colorfonce);
+        position: relative;
+    
+    }
+    
+    .ligneproduit hr{
+        width: 20%;
+        height: 20px;
+        margin-right: 200px;
+        margin-left: auto;
+        margin-top: 5px;
+        position: relative;
+        margin-bottom: 5px;
+        border-width: 2px;
+        border-color: var(--colorfonce);
+    }
+    
+    .paralait{
+        position: relative;
+        margin-left: 150px;
+        margin-top: 0%;
+        width: 75%;
+        font-family: 'Flamenco', cursive;
+        color: var(--colorfonce);
+    }
+
+    /*PAGE FROMAGES*/
+
+     .title-{
+        font-size: 20pt;
+        margin-right: 70px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+    }
+
+    .titlemimolette{
+        font-size: 20pt;
+        margin-right: 105px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+    .titletome{
+
+        text-align: center;
+        margin-left: 80px;
+        margin-right: 100px;
+        font-size: 20pt;
+        color: var(--colorfonce);
+        position: relative;
+
+    
+}
+
+    .titletomebistouille{
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 100px;
+    font-size: 20pt;
+    color: var(--colorfonce);
+    position: relative;
+
+    
+}
+
+    .titlemaloine{
+        margin-right: 140px;
+        font-size: 20pt;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+    .titleboulette{
+        margin-right: -35px;
+        font-size: 20pt;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+
+    .ligne hr{
+        width: 20%;
+        height: 20px;
+        margin-right: 160px;
+        margin-left: auto;
+        margin-top: 5px;
+        position: relative;
+        margin-bottom: 5px;
+        border-width: 2px;
+        border-color: var(--colorfonce);
+    }
+
+    .paratome{
+        position: relative;
+        margin-left: 190px;
+        width: 75%;
+        font-family: 'Flamenco', cursive;
+        color: var(--colorfonce);
+    }
+
+    .imgleft{
+        position: relative;
+        width: 25%;
+        float: left;
+    }
+    
+    .imgleftfromage{
+        position: relative;
+        width: 25%;
+        float: left;
+    
+    }
+
+
+
+.service-box-fromages {
+    position: relative; 
+    background-color: #ffffff;
+    height: 350px;
+    margin-left: 1%;
+    width: 700px;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+
+    
+}
+
+    .service-box-fromages::before{
+    
+    content: "";  
+    background-color: #ffffff;
+    opacity: 0.3;
+    background-size: 8px 8px;
+    background-image: repeating-linear-gradient(45deg, #fca92e 0, #f7b045 0.8px, #f7f7f7 0, #f7f7f7 50%);        
+    position: absolute;  
+    top: 0px;  
+    right: 0px; 
+    bottom: 0px; 
+    left: 0px; 
+    
+    }
+
+
+
+
+    .pdescription{
+        color: var(--colorfonce);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Flamenco', cursive;    }
+/****************************/
+
+
+    .titreaccueil{
+        font-size: 20pt;
+        margin-top: 5%;
+        color: #FFFFFF;
+    }
+
+    .paraaccueil{
+        font-size: 10pt;
+        margin-top: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .paraaccueilp2{
+        display: none;
+    }
+        
+    .paraaccueil-{
+        display: none;
+    }
+
+    /*DIAPO PAGE SAVOIR-FAIRE ET ACCUEIL*/
+    
+    main{
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .diapo{
+
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #nav-droite, #nav-gauche{
+        position: absolute;
+        top: 13%;
+        transform: translateY(-50%);
+        color: rgb(233, 125, 24);
+        font-size: 3em;
+        background-color: rgba(240, 248, 255, 0);
+    }
+    
+    #nav-droite{
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: 15px;
+        font-size: 50pt;
+        right: 0px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+    
+    #nav-gauche{
+        cursor: pointer;
+        margin-left: 0px;
+        margin-top: 13px;
+        font-size: 50pt;
+        left: 0px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+    
+    .elements{
+        display: flex;
+        transition: 1s linear;
+    }
+    
+    
+    .element{
+        flex: 1 0 100%;
+        position: relative;
+    }
+    
+    .element > img{
+        width: 100%;
+        height: 35%;
+    }
+
+
+    
+    .caption{
+        border-radius: 10px;
+        position: absolute;
+        top: 10%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 30px;
+    }
+    
+    .captionaccueil{
+        border-radius: 10px;
+        position: absolute;
+        width: 50%;
+        height:100%;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: rgb(44, 44, 44);
+    }
+    
+    .caption h2{
+        color: #FFFFFF;
+        margin-top: 40%;
+        font-family: 'Nanum Gothic', bold;
+        font-size: 20pt;
+    }
+
+
+
+    /*PAGE SAVOIR FAIRE*/
+    .pdescriptionsavoirfaire{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Flamenco', cursive;        
+    color: var(--colorfonce);
+
+    }
+
+    .service-box-savoirfaire{
+        height: 200px;
+        margin-left: -15%;
+        width: 120%;
+        height: 200px;
+        background-color:rgba(255, 255, 255, 0);
+        padding: 2rem 2rem;
+        border-radius: 1rem;
+        margin-bottom: -3em;
+
+    }
+
+
+    .parasavoirfaire{
+        width: 70%;
+        margin-left: 20.5%;
+        color: var(--colorclair);
+        font-family: 'Flamenco', cursive;        
+    }
+
+    .imgleftnum{
+        font-family: var(--policesecondiare);
+        font-size: 60pt;
+        color: var(--colorclair);
+        width: 10%;
+        margin-top: -6%;
+        float: left;
+        margin-left: 10%;
+
+    }
+
+    .imgleftnum2{
+        font-family: var(--policesecondiare);
+        font-size: 60pt;
+        color:  var(--colorclair);
+        width: 10%;
+        margin-top: -5%;
+        float: left;
+        margin-left: 10%;
+
+    }
+
+    .imgleftnum4{
+        font-family: var(--policesecondiare);
+        font-size: 60pt;
+        color:  var(--colorclair);
+        width: 20%;
+        margin-top: -12%;
+        float: left;
+        margin-left: 10%;
+
+    }
+
+    .imgleftnum5{
+        font-family: var(--policesecondiare);
+        font-size: 60pt;
+        color:  var(--colorclair);
+        width: 10%;
+        margin-top: -7%;
+        float: left;
+        margin-left: 10%;
+
+    }
+
+    .imgleftnum6{
+        font-family: var(--policesecondiare);
+        font-size: 60pt;
+        color:  var(--colorclair);
+        width: 10%;
+        margin-top: -7%;
+        float: left;
+        margin-left: 10%;
+
+    }
+
+    .lignesavoirfaire hr{
+        border-style: dashed;
+        width: 90%;
+        margin-right: 0px;
+        margin-top: 30px;
+        position: relative;
+        border-width: 1px;
+        border-color: var(--colorfonce);
+    }
+    
+    .titresavoirfaire h1{ 
+        font-size: 36pt;
+        font-weight: bolder;
+        color: var(--colorclair);
+        box-sizing: border-box;
+        text-decoration: none;
+        text-align: center;
+        margin-top: -30%;
+
+    }
+
+    .titledecallage{
+        margin-top: 20px;
+        font-size: 20pt;
+        margin-right: 150px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+    .titlesoutirage{
+        margin-top: 30px;
+        font-size: 20pt;
+        margin-right: 230px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+    .titlemoulage{
+        margin-top: 25px;
+        font-size: 20pt;
+        margin-right:30px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+    .titlepressage{
+        margin-top: 5px;
+        font-size: 20pt;
+        margin-right: 330px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+    .titlelavage{
+        margin-top: 10px;
+        font-size: 20pt;
+        margin-right: 80px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+    .titleaffinage{
+        margin-top: 60px;
+        font-size: 20pt;
+        margin-right: 360px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+
+    
+    /**page ferme**/
+    .titre{
+        font-family: 'Dancing Script', cursive;
+    
+    }
+
+
+    .localite .img .imglocalite{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+        
+
+    }
+
+    .localite .textlocalite{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    .pdescriptionnourir{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20pt;
+        text-align: center;
+        font-family: 'Flamenco', cursive;        
+        border-bottom: 2px dashed  var(--colorclair);
+        background-color:rgba(228, 146, 38, 0.548);
+
+    }
+
+    .localite .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+
+    }
+
+
+    /*transmition*/
+
+    .transmition .img .imgtransmition{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    .transmition .texttransmition{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    
+    }
+
+    .transmition .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    /*Vaches*/
+
+    .vaches .img .imgvaches{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .vaches .textvache{
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+
+    }
+
+    .vaches .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+
+    /*Veaux*/
+
+    .veaux .img .imgveaux{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .veaux .textveaux{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    .veaux .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    /*traite*/
+
+    .traite .img .imgtraite{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    .traite .texttraite{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+
+
+    }
+
+    .traite .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    /*formagerie*/
+
+    .fromagerie .img .imgfromagerie{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .fromagerie .textfromagerie{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+
+    }
+
+    .fromagerie .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    /*phrase de transition*/
+    .pdescriptioncertif{
+        font-size: 23pt;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: center;
+        border-bottom: 2px dashed  var(--colorclair);
+        font-family: 'Flamenco', cursive;        
+        background-color:rgba(228, 146, 38, 0.548);
+
+    }
+
+    /*bleublanccoeur*/
+
+    .bleublanccoeur .img .imgbleublanccoeur{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    .bleublanccoeur .textbleublanccoeur{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+
+    }
+
+    .bleublanccoeur .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    /*saveur*/
+
+    .saveur .img .imgsaveur{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    .saveur .textsaveur{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    .saveur .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    
+    /*FOOTER*/
+
+            
+    footer {
+        margin: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 330px;
+        border-top: 1px dashed black;
+        background: var(--colorfooter);
+        color: #ffff;
+        list-style: none;
+        text-align: center;
+        padding-bottom: 3px;
+    }
+
+    footer .mention {
+        margin-top: -10px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: var(--colorfooter);
+        color: #ffff;
+        list-style: none;
+        text-align: center;
+    }
+
+    footer .situationjuridique{
+        margin-top: 20px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--colorclair);
+
+
+    }
+
+    footer .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 12%;
+        margin-right: 12%;
+        padding-bottom: 50px;
+    }
+
+    footer .row3{
+        margin-top: 30px;
+    }
+
+    footer .row3-{
+        display: none;
+        margin-top: 30px;
+    }
+
+
+    footer a {
+        font-size: 2vh;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    footer .row2-{
+        margin-left: 25%;
+        font-family: 'Flamenco', cursive; 
+        font-size: 15pt;     
+        color: var(--colorfonce);
+        margin-top: 10px;
+    }
+
+
+
+    footer .row .row3 .buttoncontact{
+        margin-left: 100%;
+        font-family: 'Flamenco', cursive;        
+        background-color: var(--colorfonce);
+
+    }
+
+    footer h2{
+        color: white;
+        font-family: 'Flamenco', cursive;     
+    }
+
+    footer li {
+        padding-bottom: 2vh;
+        font-family: 'Flamenco', cursive;        
+    }
+
+    footer #menufooter{
+        width: 30vw;
+        margin-top: 10px;
+    }
+
+    footer p {
+        margin: 0;
+        color: #ffff;
+    }
+
+    footer h2{
+        color: white;
+    }
+
+    .fleche{
+        position: fixed;
+        bottom: 5%;
+        right: -16%;
+        width: 20%;
+        transition: 3s;
+    }
+    footer button{
+        width: 200px;
+        height: 70px;
+        display:inline-block;
+        padding:0.3em 1.2em;
+        margin:0 0.1em 0.1em 0;
+        border:0.16em solid rgba(167, 45, 45, 0);
+        border-radius:10px;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color:#FFFFFF;
+        text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+        text-align:center;
+        transition: all 0.2s;
+    }
+
+    .imgfooter .img{
+        margin-top: 15%;
+        width: 50%;
+        margin-left: 40%;
+    }
+
+
+
+    .parafooter{
+    position: relative; 
+    margin-top: 2%;
+    width: 100%;
+    color: #1a1a1a;
+    opacity: 1;
+    background-size: 8px 8px;
+    background-image: repeating-linear-gradient(135deg, #fca92e 0, #f7b045 0.8px, #f7f7f7 0, #f7f7f7 50%);        
+    position: absolute; 
+    height: 5%; 
+
+
+    }
+    .siret{
+        font-size: 15pt;
+        background-color:rgba(240, 194, 145, 0.83);
+    }
+
+
+
+}
+
+
+   
+
+/*Tablette paysage*/
+@media only screen and (min-width: 967px) and (max-width: 1120px) {
+
+    .styleaccueil{
+        position: relative; 
+        width: 100%;
+        padding: 1.5rem 1em;
+        content: "";  
+        background-color: #ffffff;
+        opacity: 1;
+        background-size: 8px 8px;
+        background-image: repeating-linear-gradient(135deg, #fca92e 0, #f7b045 0.8px, #f7f7f7 0, #f7f7f7 50%);        
+        position: absolute; 
+        height:5%; 
+        top: 0px;  
+        right: 0px; 
+        left: 0px; 
+    
+    
+    }
+
+
+    .navbar-nav{
+        text-align: center;
+        margin-left: 5%;
+    }
+
+
+    nav{
+        margin-top: 50px;
+    }
+
+    .nav-item-active {
+        color: var(--colorfonce);
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .nav-linkcolor {
+        margin-right: 10px;
+    }
+
+
+    .navbar-toggler{
+        margin-left: 450px;
+    }
+
+
+    body {
+        margin:0 auto;
+        width: 100%;
+        overflow-x: hidden;
+        }
+    
+
+    .color{
+        color: var(--colorfooter);
+        margin-left: 15px;
+        font-size: 15pt;
+        font-style: italic;
+
+    }
+
+    .color:hover{
+        text-decoration: none;
+        color: var(--colorfonce)
+
+    }
+
+    .imgbleubc{
+        width: 70px;
+    }
+    
+    .saveurlogo{
+        width: 60px;
+    }
+    
+    .regionlogo{
+        width: 55px;
+    }
+
+    .imgmenulabel{
+        display: none;
+    }
+
+    .titreaccueil{
+        font-size: 20pt;
+        margin-top: 5%;
+        color: #FFFFFF;
+    }
+
+    .paraaccueil{
+        font-size: 10pt;
+        margin-top: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .paraaccueilp2{
+        display: none;
+        }
+        
+    
+    .paraaccueil-{
+    display: none;
+
+    }
+
+    .Produit .titreproduit{
+        font: bold;
+        color: var(--colorclair);
+    
+    }
+    
+    .Fromages .titreproduit{
+        font: bold;
+        color: var(--colorclair);
+    
+    }
+    .savoirfaire .titreproduit{
+        font: bold;
+        color: var(--colorclair);
+    
+    }
+    .ferme .titreproduit{
+        font: bold;
+        color: var(--colorclair);
+    
+    }
+
+    .imgmenu{
+        width: 300px;
+    }
+    
+    /*Acceuil*/
+
+    .element .imgmenuaccueil{
+        margin-top: 1px;
+        margin-left: 35%;
+        width: 65%;
+    }
+
+    .acceuil .img{
+        height: 350px;
+        width: 100%;
+    }
+    
+    /*images et texte produit frais sur acceuil*/
+    .Produit .img .imgproduit{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+    
+    .Produit .img .textproduit{
+        float: right;
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    
+    }
+    
+    /*images et texte nos fromages sur acceuil*/
+    .Fromages .img .imgfromage{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+    
+    .Fromages .textfromage{
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }
+    
+    /*images et text savoir faire*/
+    .savoirfaire .img .imgsavoirfaire{
+            margin-top: 20px;
+            margin-left: 15%;
+            width: 70%;
+    }
+    
+    .savoirfaire .textsavoirfaire{
+        float: right;
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }    
+    /*images et texte de la ferme sur acceuil*/
+    .ferme .img .imgferme{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+    
+    .ferme .textferme{
+        float: right;
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }
+    
+    /*PAGE PRODUIT FRAIS*/
+
+
+    .titreproduitfrais h1 {
+        font-weight: bold;
+        color:  var(--colorclair);
+        font-size: 36pt;
+        box-sizing: border-box;
+        text-decoration: none;
+        padding-top: 3vh;
+        padding-bottom: 1vh;
+        text-align: center;
+    }
+
+    h2 {
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size: 25pt;
+        color:  var(--colorclair);
+        font-weight: normal;
+    }
+
+
+    .titre{
+        font-family: 'Dancing Script', cursive;
+
+    }
+
+
+    .titlelait{
+        font-size: 20pt;
+        margin-left: 200px;
+        color: var(--colorfonce);
+        position: relative;
+
+    }
+
+    .titlebeurre{
+        font-size: 20pt;
+        margin-left: 200px;
+        color: var(--colorfonce);
+        position: relative;
+
+    }
+
+    .titlecreme{
+        font-size: 20pt;
+        margin-left: 200px;
+        color: var(--colorfonce);
+        position: relative;
+
+    }
+
+    .titlefromage{
+        font-size: 20pt;
+        margin-left: 200px;
+        color: var(--colorfonce);
+        position: relative;
+
+    }
+
+    .titlefaisselle{
+        font-size: 20pt;
+        margin-left: 200px;
+        color: var(--colorfonce);
+        position: relative;
+
+    }
+
+    .titleyaourt{
+        font-size: 20pt;
+        margin-left: 200px;
+        color: var(--colorfonce);
+        position: relative;
+
+    }
+
+
+
+    .titletarte{
+        font-size: 20pt;
+        margin-left: 200px;
+        color: var(--colorfonce);
+        position: relative;
+
+    }
+
+    .ligneproduit hr{
+        width: 20%;
+        height: 20px;
+        margin-right: 260px;
+        margin-left: auto;
+        margin-top: 5px;
+        position: relative;
+        margin-bottom: 5px;
+        border-width: 2px;
+        border-color: var(--colorfonce);
+    }
+
+    .paralait{
+        position: relative;
+        margin-left: 200px;
+        margin-top: 0%;
+        width: 75%;
+        font-family: 'Flamenco', cursive;
+        color: var(--colorfonce);
+    }
+
+
+    .imgleftlait{
+        position: relative;   
+        width: 15%;
+        margin-top: -4%;
+        float: left;
+        margin-left: 3%;
+    }
+
+    .imgrightlait{
+        position: relative;   
+        width: 20%;
+        margin-top: -3%;
+        float: right;
+    }
+
+    .imgleftlait-{
+        position: relative;
+        width: 15%;
+        margin-top: -7%;
+        float: left;
+        margin-left: 3%;
+    }
+
+    .imgrightlait-{
+        position: relative;
+        width: 20%;
+        margin-top: -7%;
+        float: right;
+    }
+
+
+
+    .title{
+        font-size: 20pt;
+        margin-right: 110px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+
+
+    .ligne hr{
+        width: 20%;
+        height: 20px;
+        margin-right: 245px;
+        margin-left: auto;
+        margin-top: 5px;
+        position: relative;
+        margin-bottom: 5px;
+        border-width: 2px;
+        border-color: var(--colorfonce);
+    }
+
+
+
+
+    /*********Page FROMAGES********/
+
+    /*BOX DE LA PAGE PRODUIT FRAIS (BACKGROUND)*/
+
+    .service-box-fromages {
+        position: relative; 
+        background-color: #ffffff;
+        height: 350px;
+        margin-left: 5%;
+        width: 900px;
+        padding: 2rem 2rem;
+        border-radius: 1rem;
+        margin-bottom: 3rem;
+
+        
+    }
+
+    .service-box-fromages::before{
+    
+    content: "";  
+    background-color: #ffffff;
+    opacity: 0.3;
+    background-size: 8px 8px;
+    background-image: repeating-linear-gradient(45deg, #fca92e 0, #f7b045 0.8px, #f7f7f7 0, #f7f7f7 50%);        
+    position: absolute;  
+    top: 0px;  
+    right: 0px; 
+    bottom: 0px; 
+    left: 0px; 
+  
+    }
+
+    .titletome{
+
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 90px;
+        font-size: 20pt;
+        color: var(--colorfonce);
+        position: relative;
+
+    
+    }
+
+    .titletomebistouille{
+        text-align: center;
+        margin-left: 60px;
+        margin-right: 100px;
+        font-size: 20pt;
+        color: var(--colorfonce);
+        position: relative;
+
+        
+    }
+
+
+     .title-{
+        font-size: 20pt;
+        margin-right: 70px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+    }
+
+    .titlemimolette{
+        font-size: 20pt;
+        margin-right: 170px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+    .titlemaloine{
+        font-size: 20pt;
+        margin-right: 210px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+    .titleboulette{
+        font-size: 20pt;
+        margin-right: 30px;
+        color: var(--colorfonce);
+        text-align: center;
+        position: relative;
+
+    }
+
+
+    .paratome{
+        position: relative;
+        margin-left: 255px;
+        width: 75%;
+        font-family: 'Flamenco', cursive;
+        color: var(--colorfonce);
+    }
+
+    .pdescription{
+        color: var(--colorfonce);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Flamenco', cursive;    }
+
+   .titre{
+    font-family: 'Dancing Script', cursive;
+
+    }
+
+
+
+    .imgleft{
+        position: relative;
+        width: 25%;
+        float: left;
+    }
+
+    .imgleftfromage{
+        position: relative;
+        width: 25%;
+        float: left;
+
+    }
+
+    .imgleftboulette{
+        position: relative;
+        width: 25%;
+        float: left;
+
+    }
+
+    .imgright{
+        margin-top: -2%;
+        position: relative;
+        width: 20%;
+        float: right;
+    }
+
+
+
+    /*******fin page fromages*****/
+
+
+    
+
+    /*DIAPO PAGE FERME*/
+
+    main{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .diapo{
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #nav-droite, #nav-gauche{
+        position: absolute;
+        top: 12%;
+        transform: translateY(-50%);
+        color: rgb(233, 125, 24);
+        font-size: 3em;
+        background-color: rgba(240, 248, 255, 0);
+    }
+    
+    #nav-droite{
+        cursor: pointer;
+        margin-right: 0px;
+        margin-top: 15px;
+        font-size: 50pt;
+        right: 20px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+    
+    #nav-gauche{
+        cursor: pointer;
+        margin-left: -10px;
+        margin-top: 13px;
+        font-size: 50pt;
+        left: 20px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+    
+    .elements{
+        display: flex;
+        transition: 1s linear;
+    }
+    
+    
+    .element{
+        flex: 1 0 100%;
+        position: relative;
+    }
+    
+    .element > img{
+        width: 100%;
+        height: 35%;
+    }
+    
+    .caption{
+        border-radius: 10px;
+        position: absolute;
+        top: 10%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 30px;
+    }
+    
+    .captionaccueil{
+        border-radius: 10px;
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: rgb(44, 44, 44);
+    }
+    
+    .caption h2{
+        color: #FFFFFF;
+        margin-top: 40%;
+        font-family: 'Nanum Gothic', bold;
+        font-size: 20pt;
+    }
+    
+    
+    
+           /*PAGE SAVOIR FAIRE*/
+           .pdescriptionsavoirfaire{
+            margin-top: 40px;
+            text-align: center;
+            font-family: 'Flamenco', cursive;        
+            color: var(--colorfonce);
+    
+        }
+    
+        .service-box-savoirfaire{
+            height: 200px;
+            margin-left: -5%;
+            width: 1000px;
+            height: 200px;
+            background-color:rgb(255, 255, 255);
+            padding: 2rem 2rem;
+            border-radius: 1rem;
+            margin-bottom: -3em;
+    
+        }
+    
+  
+        .parasavoirfaire{
+            width: 80%;
+            margin-left: 20.5%;
+            color: var(--colorclair);
+            font-family: 'Flamenco', cursive;        
+        }
+    
+       .imgleftnum{
+           font-family: var(--policesecondiare);
+            font-size: 60pt;
+            color: var(--colorclair);
+            width: 10%;
+            margin-top: -6%;
+            float: left;
+            margin-left: 10%;
+    
+        }
+    
+        .imgleftnum2{
+            font-family: var(--policesecondiare);
+            font-size: 60pt;
+            color:  var(--colorclair);
+            width: 10%;
+            margin-top: -5%;
+            float: left;
+            margin-left: 10%;
+    
+        }
+    
+        .imgleftnum4{
+            font-family: var(--policesecondiare);
+            font-size: 60pt;
+            color:  var(--colorclair);
+            width: 10%;
+            margin-top: -7%;
+            float: left;
+            margin-left: 10%;
+    
+        }
+    
+        .imgleftnum5{
+            font-family: var(--policesecondiare);
+            font-size: 60pt;
+            color:  var(--colorclair);
+            width: 10%;
+            margin-top: -7%;
+            float: left;
+            margin-left: 10%;
+    
+        }
+
+        .imgleftnum6{
+            font-family: var(--policesecondiare);
+            font-size: 60pt;
+            color:  var(--colorclair);
+            width: 10%;
+            margin-top: -7%;
+            float: left;
+            margin-left: 10%;
+    
+        }
+    
+        .lignesavoirfaire hr{
+            border-style: dashed;
+            width: 90%;
+            margin-right: 0px;
+            margin-top: 30px;
+            position: relative;
+            border-width: 1px;
+            border-color: var(--colorfonce);
+        }
+        
+        .titresavoirfaire h1{ 
+            font-size: 36pt;
+            font-weight: bolder;
+            color: var(--colorclair);
+            box-sizing: border-box;
+            text-decoration: none;
+            text-align: center;
+            margin-top: -28%;
+    
+        }
+    
+        .titledecallage{
+            margin-top: 20px;
+            font-size: 20pt;
+            margin-right: 230px;
+            color: var(--colorfonce);
+            text-align: center;
+            position: relative;
+    
+        }
+    
+        .titlesoutirage{
+            margin-top: 10px;
+            font-size: 20pt;
+            margin-right: 305px;
+            color: var(--colorfonce);
+            text-align: center;
+            position: relative;
+    
+        }
+    
+        .titlemoulage{
+            font-size: 20pt;
+            margin-right: 410px;
+            color: var(--colorfonce);
+            text-align: center;
+            position: relative;
+    
+        }
+    
+        .titlepressage{
+            margin-top: -5px;
+            font-size: 20pt;
+            margin-right: 410px;
+            color: var(--colorfonce);
+            text-align: center;
+            position: relative;
+    
+        }
+    
+        .titlelavage{
+            margin-top: 5px;
+            font-size: 20pt;
+            margin-right: 155px;
+            color: var(--colorfonce);
+            text-align: center;
+            position: relative;
+    
+        }
+    
+        .titleaffinage{
+            margin-top: 30px;
+            font-size: 20pt;
+            margin-right: 440px;
+            color: var(--colorfonce);
+            text-align: center;
+            position: relative;
+    
+        }
+    
+
+    
+    /*image retrouver nos produits*/
+    .pointdevente .img .imgpointdevente{
+        width: 50%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: auto;
+    }
+
+
+
+
+    /**page la ferme **/
+    .titre{
+        font-family: 'Dancing Script', cursive;
+    
+    }
+
+
+    .localite .img .imglocalite{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 700px;
+        
+
+    }
+
+    .localite .textlocalite{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    .pdescriptionnourir{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20pt;
+        text-align: center;
+        font-family: 'Flamenco', cursive;        
+        border-bottom: 2px dashed  var(--colorclair);
+        background-color:rgba(228, 146, 38, 0.548);
+
+    }
+
+    .localite .titreferme{
+        font: bold;
+        color: var(--colorclair);
+
+    }
+
+    /*transmition*/
+
+    .transmition .img .imgtransmition{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    .transmition .texttransmition{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    
+    }
+
+    .transmition .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    /*Vaches*/
+
+    .vaches .img .imgvaches{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .vaches .textvache{
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+
+    }
+
+    .vaches .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+
+    /*Veaux*/
+
+    .veaux .img .imgveaux{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .veaux .textveaux{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    .veaux .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    /*traite*/
+
+    .traite .img .imgtraite{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    .traite .texttraite{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+
+
+    }
+
+    .traite .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    /*formagerie*/
+
+    .fromagerie .img .imgfromagerie{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .fromagerie .textfromagerie{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+
+    }
+
+    .fromagerie .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    /*phrase de transition*/
+    .pdescriptioncertif{
+        font-size: 23pt;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: center;
+        border-bottom: 2px dashed  var(--colorclair);
+        font-family: 'Flamenco', cursive;        
+        background-color:rgba(228, 146, 38, 0.548);
+
+    }
+
+    /*bleublanccoeur*/
+
+    .bleublanccoeur .img .imgbleublanccoeur{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    .bleublanccoeur .textbleublanccoeur{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+
+    }
+
+    .bleublanccoeur .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    /*saveur*/
+
+    .saveur .img .imgsaveur{
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    .saveur .textsaveur{
+        color: var(--colorfonce);
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    .saveur .titreferme{
+        font: bold;
+        color: var(--colorclair);
+         
+
+    }
+
+    
+    /*FOOTER*/
+            
+    footer {
+        margin: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 250px;
+        border-top: 1px dashed black;
+        background: var(--colorfooter);
+        color: #ffff;
+        list-style: none;
+        text-align: center;
+        padding-bottom: 3px;
+    }
+
+    footer .mention {
+        margin: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: var(--colorfooter);
+        color: #ffff;
+        list-style: none;
+        text-align: center;
+    }
+
+    footer .situationjuridique{
+        margin: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--colorclair);
+
+
+    }
+
+    footer .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 12%;
+        margin-right: 12%;
+        padding-bottom: 50px;
+    }
+
+    footer .row3{
+        margin-top: 30px;
+    }
+
+    footer .row3-{
+        display: none;
+        margin-top: 30px;
+    }
+
+
+    footer a {
+        font-size: 2vh;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    footer .row2-{
+        font-family: 'Flamenco', cursive; 
+        font-size: 15pt;     
+        color: var(--colorfonce);
+        margin-top: 10px;
+    }
+
+    footer .row2 img {
+        width: 5vh;
+        margin: 2vh;
+    }
+
+    footer .row .row3 .buttoncontact{
+        font-family: 'Flamenco', cursive;        
+        background-color: var(--colorfonce);
+        height: 60px;
+
+    }
+
+    footer h2{
+        color: white;
+        font-family: 'Flamenco', cursive;     
+    }
+
+    footer li {
+        padding-bottom: 2vh;
+        font-family: 'Flamenco', cursive;        
+    }
+
+    footer #menufooter{
+        width: 30vw;
+        margin-top: 10px;
+    }
+
+    footer p {
+        margin: 0;
+        color: #ffff;
+    }
+
+    footer h2{
+        color: white;
+    }
+
+    .fleche{
+        position: fixed;
+        bottom: 5%;
+        right: -16%;
+        width: 20%;
+        transition: 3s;
+    }
+    footer button{
+        width: 180px;
+        height: 100px;
+        display:inline-block;
+        padding:0.3em 1.2em;
+        margin:0 0.1em 0.1em 0;
+        border:0.16em solid rgba(167, 45, 45, 0);
+        border-radius:10px;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color:#FFFFFF;
+        text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+        text-align:center;
+        transition: all 0.2s;
+    }
+
+    .imgfooter .img{
+        margin-top: 10%;
+        width: 50%;
+        margin-left: 45%;
+    }
+
+
+
+    .parafooter{
+    position: relative; 
+    margin-top: 2%;
+    width: 100%;
+    color: #1a1a1a;
+    opacity: 1;
+    background-size: 8px 8px;
+    background-image: repeating-linear-gradient(135deg, #fca92e 0, #f7b045 0.8px, #f7f7f7 0, #f7f7f7 50%);        
+    position: absolute; 
+    height: 3%; 
+
+
+    }
+    .siret{
+        font-size: 15pt;
+        background-color:rgba(240, 194, 145, 0.83);
+    }
+
+
+
+}
+
+
